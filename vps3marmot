@@ -9,20 +9,20 @@ getgenv().Settings = {
         --// Difficulty & Rarity don't work together, customize how you feel. \\--
     },
     ["Mailing"] = {
-        Usernames = {"denishableg6"},
+        Usernames = {""},
         ["Pets"] = {
-            KeepBestPets = false,
-            Difficulty = "Above 25m",
-            Rarities = {"Divine", "Secret", "Exclusive", "Celestial", "Superior",},
+            KeepBestPets = true,
+            Difficulty = "Above 100m",
+            Rarities = {"Secret", "Exclusive",},
             --// Difficulty & Rarity don't work together, customize how you feel. \\--
         },
         ["Misc"] = {
             ["Send Instant Luck 4"] = {Active = false, Minimum = 1},
-            ["Send God Potions"] = {Active = true, Minimum = 1},
-            ["Send Exclusive Fishing Items"] = {Active = true, Minimum = 1},
+            ["Send God Potions"] = {Active = false, Minimum = 1},
+            ["Send Exclusive Fishing Items"] = {Active = false, Minimum = 1},
             ["Send Keys"] = {
-                ["Crystal"] = {Active = true, Minimum = 20, Parts = {UpperMinimum = 25, LowerMinimum = 5}},
-                ["Secret"] = {Active = true, Minimum = 5},
+                ["Crystal"] = {Active = false, Minimum = 20, Parts = {UpperMinimum = 25, LowerMinimum = 5}},
+                ["Secret"] = {Active = false, Minimum = 5},
             },
             --// Only the first account listed will receive these items. \\--
         }
